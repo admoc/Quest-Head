@@ -26,5 +26,33 @@ namespace QuestHeadProject.Controllers
 
             return View();
         }
+
+        public ActionResult Items()
+        {
+            ViewBag.Message = "Items page.";
+
+            return View();
+        }
+
+        public ActionResult Database()
+        {
+            ViewBag.Message = "Database page.";
+
+            return View();
+        }
+
+        public ActionResult Guides()
+        {
+            ViewBag.Message = "Guides page.";
+
+            return View();
+        }
+
+        public ActionResult Community()
+        {
+            ViewBag.Message = "Community page.";
+
+            return View();
+        }
     }
 }
